@@ -1,0 +1,21 @@
+{
+  "name": "wise-server",
+  "version": "1.0.0",
+  "description": "server side for wise client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "chenllos",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^5.0.0",
+    "koa": "^2.6.2",
+    "koa-static": "^5.0.0",
+    "mysql2": "^1.6.4",
+    "request": "^2.88.0",
+    "sequelize": "^4.41.2"
+  }
+}
